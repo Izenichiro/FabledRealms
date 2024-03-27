@@ -1,0 +1,416 @@
+body {
+	background-image: url(https://img3.goodfon.ru/wallpaper/nbig/6/92/derevo-rezba-palisandr.jpg);
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: rgba(124, 96, 52, 0.5);
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	opacity: 1;
+	overflow: hidden;
+  }
+
+  .header a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+  }
+
+  .header a.logo {
+	font-size: 25px;
+	font-weight: bold;
+  }
+
+  .header a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+
+  .header a.active {
+	background-color: rgb(122, 96, 17, 0.8);
+	color: rgb(255, 255, 255);
+  }
+
+  .header-right {
+	float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+	.header a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	  font-size: 12px;
+	}
+	.header-right {
+	  float: none;
+	}
+	.header img {
+		float: none;
+		display: none;
+	}
+	.header a.logo {
+		font-size: 12px;
+		font-weight: bold;
+	  }
+  }
+
+.headern {
+	background-color: rgb(242, 242, 242);
+	max-width: 75%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo img {
+	width: 50px;
+}
+
+/* первый блок с вводным приветствием */
+.wiki-section {
+	background-color: rgba(124, 96, 52, 0.5);
+}
+
+.wiki-block {
+	background-color: rgb(242, 242, 242);
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+  }
+
+  .wiki-block h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #333;
+	text-align: center;
+  }
+
+  .wiki-block h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #666;
+  }
+
+  .wiki-block h4 {
+	font-size: 16px;
+	margin-bottom: 40px;
+	color: #444;
+	opacity: 0.6;
+	text-align: center;
+  }
+  
+  .wiki-block ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .wiki-block li {
+	color: #666;
+	font-size: 18px;
+	margin-bottom: 10px;
+  }
+  
+  .wiki-block p {
+	color: #555;
+	font-size: 20px;
+	line-height: 1.5;
+  }
+
+.logo a {
+	text-decoration: none;
+	color:black;
+}
+
+.account-link a {
+	margin-left: auto;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+
+section {
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* слайдер */
+.fantasy-art {
+	text-align: center;
+	background-color: rgba(124, 96, 52, 0.5);
+}
+
+.fantasy-art-block {
+	background-color: rgb(242, 242, 242);
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+  }
+
+.fantasy-art h2 {
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.art-gallery {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.art-gallery img {
+	width: 200px;
+	height: auto;
+	margin: 10px;
+}
+
+/* блок с топом работ */
+.top-5-works {
+	background-color: rgba(124, 96, 52, 0.5);
+}
+
+.top-5-works-block {
+	background-color: rgb(242, 242, 242);
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+  }
+
+.top-5-works h1 {
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.top-5-works h2 {
+	color: #666;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.top-5-works li {
+	color: #666;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.block-list {
+	list-style-type: none;
+	padding: 0;
+  }
+
+  /* блок с авторами */
+  .top-5-authors {
+	display: flex;
+	align-items: center;
+	background-color: #e4e4e4;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .top-5-authors .number {
+	font-weight: bold;
+	margin-right: 10px;
+  }
+
+  .top-5-authors .image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 20px;
+  }
+
+  .top-5-authors .image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .top-5-authors .text {
+	font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+	.top-5-authors {
+	  flex-direction: column;
+	}
+
+	.top-5-authors .image {
+	  width: 80px;
+	  height: 80px;
+	  margin-right: 0;
+	  margin-bottom: 10px;
+	}
+  }
+
+  @media (max-width: 480px) {
+	.top-5-authors .image {
+	  width: 60px;
+	  height: 60px;
+	}
+  }
+
+  /* биография авторов */
+.author-biographies {
+	background-color: rgba(124, 96, 52, 0.5);
+}
+
+.author-biographies-block {
+	background-color: rgb(242, 242, 242);
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+  }
+
+  .author-biographies h2 {
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.author-biographies ul {
+	color: #666;
+	margin-top: 20px;
+}
+
+.author-biographies li {
+	margin-bottom: 10px;
+}
+
+.about-us__block {
+	width: calc(100% - 60px);
+	margin-bottom: 40px;
+	margin-left: 20px;
+	background-color: rgb(236, 236, 236);
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+  }
+  
+  .about-us__block:hover {
+	transform: scale(1.05);
+  }
+
+  .about-us h2 {
+	color: #333;
+  }
+
+  .about-us__title {
+	text-align: center;
+  }
+
+  .about-us__block h3 {
+	color: #333;
+  }
+
+  .about-us__block p {
+	color: #666;
+	margin-bottom: 5px;
+  }
+  
+  @media screen and (max-width: 767px) {
+	.about-us__block {
+	  width: 80%;
+	  text-align: center;
+	}
+  }
+
+  /* футер */
+.footer-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: rgba(124, 96, 52, 0.5);
+	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-section {
+	width: 36%;
+	display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-right: 1px solid #d0d0d0;
+}
+
+.footer-block {
+	background-color: rgb(242, 242, 242);
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-flex;
+	justify-content: center;
+  }
+
+.footer-section h3 {
+	color: #333;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.footer-section p {
+	color: #666;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.footer-section ul {
+	color: #666;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-section ul li {
+	margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+	text-decoration: none;
+	color: #333;
+}
+
+.footer-section ul li a:hover {
+	color: #666;
+}
+
+@media screen and (max-width: 767px) {
+	.footer-section {
+		font-size: 10px;
+	}
+	.footer-section p {
+		font-size: 10px;
+	}
+	.footer-section h3 {
+		font-size: 12px;
+	}
+  }
